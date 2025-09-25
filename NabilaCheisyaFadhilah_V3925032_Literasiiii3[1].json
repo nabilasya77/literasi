@@ -1,0 +1,660 @@
+{
+  "data_file": [
+    {
+      "id": 1,
+      "file_name": "system32.dll",
+      "ukuran_kb": 120,
+      "status": "aman"
+    },
+    {
+      "id": 2,
+      "file_name": "video.mp4",
+      "ukuran_kb": 100,
+      "status": "aman"
+    },
+    {
+      "id": 3,
+      "file_name": "user_data.txt",
+      "ukuran_kb": 512,
+      "status": "aman"
+    },
+    {
+      "id": 4,
+      "file_name": "malware.exe",
+      "ukuran_kb": 120,
+      "status": "terinfeksi"
+    },
+    {
+      "id": 5,
+      "file_name": "config.json",
+      "ukuran_kb": 15,
+      "status": "aman"
+    },
+    {
+      "id": 6,
+      "file_name": "update.bin",
+      "ukuran_kb": 1024,
+      "status": "aman"
+    },
+    {
+      "id": 7,
+      "file_name": "spyware.dll",
+      "ukuran_kb": 4096,
+      "status": "terinfeksi"
+    },
+    {
+      "id": 8,
+      "file_name": "backup.zip",
+      "ukuran_kb": 120,
+      "status": "aman"
+    },
+    {
+      "id": 9,
+      "file_name": "logfile.log",
+      "ukuran_kb": 50,
+      "status": "aman"
+    },
+    {
+      "id": 10,
+      "file_name": "ransomware.exe",
+      "ukuran_kb": 3072,
+      "status": "terinfeksi"
+    },
+    {
+      "id": 11,
+      "file_name": "image.jpg",
+      "ukuran_kb": 1500,
+      "status": "aman"
+    },
+    {
+      "id": 12,
+      "file_name": "video.mp4",
+      "ukuran_kb": 1200,
+      "status": "aman"
+    },
+    {
+      "id": 13,
+      "file_name": "script.js",
+      "ukuran_kb": 20,
+      "status": "aman"
+    },
+    {
+      "id": 14,
+      "file_name": "malicious.js",
+      "ukuran_kb": 45,
+      "status": "terinfeksi"
+    },
+    {
+      "id": 15,
+      "file_name": "document.docx",
+      "ukuran_kb": 200,
+      "status": "aman"
+    },
+    {
+      "id": 16,
+      "file_name": "presentation.pptx",
+      "ukuran_kb": 500,
+      "status": "aman"
+    },
+    {
+      "id": 17,
+      "file_name": "spreadsheet.xlsx",
+      "ukuran_kb": 250,
+      "status": "aman"
+    },
+    {
+      "id": 18,
+      "file_name": "trojan.exe",
+      "ukuran_kb": 1024,
+      "status": "terinfeksi"
+    },
+    {
+      "id": 19,
+      "file_name": "archive.rar",
+      "ukuran_kb": 2048,
+      "status": "aman"
+    },
+    {
+      "id": 20,
+      "file_name": "config.ini",
+      "ukuran_kb": 10,
+      "status": "aman"
+    },
+    {
+      "id": 21,
+      "file_name": "malware_payload.bin",
+      "ukuran_kb": 512,
+      "status": "aman"
+    },
+    {
+      "id": 22,
+      "file_name": "system.log",
+      "ukuran_kb": 100,
+      "status": "aman"
+    },
+    {
+      "id": 23,
+      "file_name": "user_profile.dat",
+      "ukuran_kb": 120,
+      "status": "aman"
+    },
+    {
+      "id": 24,
+      "file_name": "keylogger.exe",
+      "ukuran_kb": 1500,
+      "status": "terinfeksi"
+    },
+    {
+      "id": 25,
+      "file_name": "setup.exe",
+      "ukuran_kb": 140,
+      "status": "aman"
+    }
+  ],
+  "data_log_aktivitas": [
+    {
+      "id": 1,
+      "activity": "scan_start",
+      "device": "camera_01",
+      "status": "success"
+    },
+    {
+      "id": 2,
+      "activity": "file_open",
+      "device": "sensor_02",
+      "status": "success"
+    },
+    {
+      "id": 3,
+      "activity": "virus_detected",
+      "device": "camera_01",
+      "status": "infected"
+    },
+    {
+      "id": 4,
+      "activity": "file_deleted",
+      "device": "camera_01",
+      "status": "infected"
+    },
+    {
+      "id": 5,
+      "activity": "scan_complete",
+      "device": "sensor_02",
+      "status": "success"
+    },
+    {
+      "id": 6,
+      "activity": "scan_complete",
+      "device": "sensor_01",
+      "status": "success"
+    },
+    {
+      "id": 7,
+      "activity": "quarantine_file",
+      "device": "smart_lock_01",
+      "status": "success"
+    },
+    {
+      "id": 8,
+      "activity": "scan_start",
+      "device": "camera_01",
+      "status": "success"
+    },
+    {
+      "id": 9,
+      "activity": "virus_removed",
+      "device": "smart_lock_01",
+      "status": "success"
+    },
+    {
+      "id": 10,
+      "activity": "scan_complete",
+      "device": "smart_lock_01",
+      "status": "success"
+    },
+    {
+      "id": 11,
+      "activity": "file_open",
+      "device": "sensor_02",
+      "status": "success"
+    },
+    {
+      "id": 12,
+      "activity": "virus_detected",
+      "device": "smart_lock_01",
+      "status": "infected"
+    },
+    {
+      "id": 13,
+      "activity": "file_deleted",
+      "device": "camera_01",
+      "status": "success"
+    },
+    {
+      "id": 14,
+      "activity": "scan_start",
+      "device": "sensor_02",
+      "status": "success"
+    },
+    {
+      "id": 15,
+      "activity": "quarantine_file",
+      "device": "camera_01",
+      "status": "success"
+    },
+    {
+      "id": 16,
+      "activity": "scan_complete",
+      "device": "smart_lock_01",
+      "status": "success"
+    },
+    {
+      "id": 17,
+      "activity": "scan_start",
+      "device": "camera_03",
+      "status": "success"
+    },
+    {
+      "id": 18,
+      "activity": "scan_end",
+      "device": "camera_03",
+      "status": "success"
+    },
+    {
+      "id": 19,
+      "activity": "scan_start",
+      "device": "camera_01",
+      "status": "success"
+    },
+    {
+      "id": 20,
+      "activity": "scan_error",
+      "device": "camera_01",
+      "status": "infected"
+    },
+    {
+      "id": 21,
+      "activity": "virus_detected",
+      "device": "smart_lock_01",
+      "status": "infected"
+    },
+    {
+      "id": 22,
+      "activity": "file_deleted",
+      "device": "camera_01",
+      "status": "success"
+    },
+    {
+      "id": 23,
+      "activity": "scan_complete",
+      "device": "sensor_02",
+      "status": "success"
+    },
+    {
+      "id": 24,
+      "activity": "quarantine_file",
+      "device": "smart_lock_01",
+      "status": "success"
+    },
+    {
+      "id": 25,
+      "activity": "scan_start",
+      "device": "camera_01",
+      "status": "success"
+    }
+  ],
+  "data_perangkat_iot_smart_lock": [
+    {
+      "id": 1,
+      "lock_id": "Lock-001",
+      "status": "Terkunci",
+      "location": "Pintu Utama",
+      "ip_address": "192.168.2.101"
+    },
+    {
+      "id": 2,
+      "lock_id": "Lock-002",
+      "status": "Terbuka",
+      "location": "Pintu Samping",
+      "ip_address": "192.168.2.102"
+    },
+    {
+      "id": 3,
+      "lock_id": "Lock-003",
+      "status": "Terkunci",
+      "location": "Pintu Belakang",
+      "ip_address": "192.168.2.103"
+    },
+    {
+      "id": 4,
+      "lock_id": "Lock-004",
+      "status": "Terkunci",
+      "location": "Lantai 1",
+      "ip_address": "192.168.2.104"
+    },
+    {
+      "id": 5,
+      "lock_id": "Lock-005",
+      "status": "Terbuka",
+      "location": "Lantai 2",
+      "ip_address": "192.168.2.105"
+    },
+    {
+      "id": 6,
+      "lock_id": "Lock-006",
+      "status": "Terkunci",
+      "location": "Ruang Server",
+      "ip_address": "192.168.2.106"
+    },
+    {
+      "id": 7,
+      "lock_id": "Lock-007",
+      "status": "Terkunci",
+      "location": "Gudang",
+      "ip_address": "192.168.2.107"
+    },
+    {
+      "id": 8,
+      "lock_id": "Lock-008",
+      "status": "Terbuka",
+      "location": "Ruang Meeting",
+      "ip_address": "192.168.2.108"
+    },
+    {
+      "id": 9,
+      "lock_id": "Lock-009",
+      "status": "Terkunci",
+      "location": "Kamar Atasan",
+      "ip_address": "192.168.2.109"
+    },
+    {
+      "id": 10,
+      "lock_id": "Lock-010",
+      "status": "Terkunci",
+      "location": "Pintu Masuk Tamu",
+      "ip_address": "192.168.2.110"
+    },
+    {
+      "id": 11,
+      "lock_id": "Lock-011",
+      "status": "Terbuka",
+      "location": "Ruang Resepsionis",
+      "ip_address": "192.168.2.111"
+    },
+    {
+      "id": 12,
+      "lock_id": "Lock-012",
+      "status": "Terkunci",
+      "location": "Lantai 3",
+      "ip_address": "192.168.2.112"
+    },
+    {
+      "id": 13,
+      "lock_id": "Lock-013",
+      "status": "Terkunci",
+      "location": "Kamar Keamanan",
+      "ip_address": "192.168.2.113"
+    },
+    {
+      "id": 14,
+      "lock_id": "Lock-014",
+      "status": "Terbuka",
+      "location": "Lobby Utama",
+      "ip_address": "192.168.2.114"
+    },
+    {
+      "id": 15,
+      "lock_id": "Lock-015",
+      "status": "Terkunci",
+      "location": "Kamar Server Cadangan",
+      "ip_address": "192.168.2.115"
+    },
+    {
+      "id": 16,
+      "lock_id": "Lock-016",
+      "status": "Terkunci",
+      "location": "Pintu Akses Staff",
+      "ip_address": "192.168.2.116"
+    },
+    {
+      "id": 17,
+      "lock_id": "Lock-017",
+      "status": "Terbuka",
+      "location": "Pintu Akses VIP",
+      "ip_address": "192.168.2.117"
+    },
+    {
+      "id": 18,
+      "lock_id": "Lock-018",
+      "status": "Terkunci",
+      "location": "Lantai 4",
+      "ip_address": "192.168.2.118"
+    },
+    {
+      "id": 19,
+      "lock_id": "Lock-019",
+      "status": "Terbuka",
+      "location": "Pintu Samping Parkiran",
+      "ip_address": "192.168.2.119"
+    },
+    {
+      "id": 20,
+      "lock_id": "Lock-020",
+      "status": "Terkunci",
+      "location": "Gudang Cadangan",
+      "ip_address": "192.168.2.120"
+    },
+    {
+      "id": 21,
+      "lock_id": "Lock-021",
+      "status": "Terkunci",
+      "location": "Ruang Meeting 2",
+      "ip_address": "192.168.2.121"
+    },
+    {
+      "id": 22,
+      "lock_id": "Lock-022",
+      "status": "Terbuka",
+      "location": "Lantai 5",
+      "ip_address": "192.168.2.122"
+    },
+    {
+      "id": 23,
+      "lock_id": "Lock-023",
+      "status": "Terkunci",
+      "location": "Ruang Arsip",
+      "ip_address": "192.168.2.123"
+    },
+    {
+      "id": 24,
+      "lock_id": "Lock-024",
+      "status": "Terkunci",
+      "location": "Pintu Masuk Basement",
+      "ip_address": "192.168.2.124"
+    },
+    {
+      "id": 25,
+      "lock_id": "Lock-025",
+      "status": "Terbuka",
+      "location": "Lantai 6",
+      "ip_address": "192.168.2.125"
+    }
+  ],
+  "data_perilaku_pengguna_perangkat": [
+    {
+      "id": 1,
+      "activity": "login",
+      "device": "camera_01",
+      "user": "admin",
+      "status": "success"
+    },
+    {
+      "id": 2,
+      "activity": "logout",
+      "device": "camera_01",
+      "user": "admin",
+      "status": "success"
+    },
+    {
+      "id": 3,
+      "activity": "login",
+      "device": "sensor_01",
+      "user": "user1",
+      "status": "success"
+    },
+    {
+      "id": 4,
+      "activity": "file_access",
+      "device": "smart_lock_01",
+      "user": "user2",
+      "status": "success"
+    },
+    {
+      "id": 5,
+      "activity": "unauthorized_access",
+      "device": "camera_02",
+      "user": "unknown",
+      "status": "alert"
+    },
+    {
+      "id": 6,
+      "activity": "login",
+      "device": "sensor_02",
+      "user": "user3",
+      "status": "success"
+    },
+    {
+      "id": 7,
+      "activity": "logout",
+      "device": "sensor_02",
+      "user": "user3",
+      "status": "success"
+    },
+    {
+      "id": 8,
+      "activity": "file_access",
+      "device": "camera_01",
+      "user": "admin",
+      "status": "success"
+    },
+    {
+      "id": 9,
+      "activity": "login",
+      "device": "smart_lock_01",
+      "user": "user4",
+      "status": "success"
+    },
+    {
+      "id": 10,
+      "activity": "unauthorized_access",
+      "device": "sensor_01",
+      "user": "unknown",
+      "status": "alert"
+    },
+    {
+      "id": 11,
+      "activity": "logout",
+      "device": "smart_lock_01",
+      "user": "user4",
+      "status": "success"
+    },
+    {
+      "id": 12,
+      "activity": "login",
+      "device": "camera_02",
+      "user": "user5",
+      "status": "success"
+    },
+    {
+      "id": 13,
+      "activity": "file_access",
+      "device": "sensor_02",
+      "user": "user2",
+      "status": "success"
+    },
+    {
+      "id": 14,
+      "activity": "login",
+      "device": "camera_01",
+      "user": "user6",
+      "status": "success"
+    },
+    {
+      "id": 15,
+      "activity": "logout",
+      "device": "camera_01",
+      "user": "user6",
+      "status": "success"
+    },
+    {
+      "id": 16,
+      "activity": "unauthorized_access",
+      "device": "smart_lock_01",
+      "user": "unknown",
+      "status": "alert"
+    },
+    {
+      "id": 17,
+      "activity": "file_access",
+      "device": "camera_02",
+      "user": "user7",
+      "status": "success"
+    },
+    {
+      "id": 18,
+      "activity": "login",
+      "device": "sensor_01",
+      "user": "user8",
+      "status": "success"
+    },
+    {
+      "id": 19,
+      "activity": "logout",
+      "device": "sensor_01",
+      "user": "user8",
+      "status": "success"
+    },
+    {
+      "id": 20,
+      "activity": "file_access",
+      "device": "smart_lock_01",
+      "user": "user9",
+      "status": "success"
+    },
+    {
+      "id": 21,
+      "activity": "login",
+      "device": "camera_02",
+      "user": "user10",
+      "status": "success"
+    },
+    {
+      "id": 22,
+      "activity": "unauthorized_access",
+      "device": "smart_lock_01",
+      "user": "unknown",
+      "status": "alert"
+    },
+    {
+      "id": 23,
+      "activity": "logout",
+      "device": "camera_01",
+      "user": "admin",
+      "status": "success"
+    },
+    {
+      "id": 24,
+      "activity": "login",
+      "device": "sensor_02",
+      "user": "user2",
+      "status": "success"
+    },
+    {
+      "id": 25,
+      "activity": "file_access",
+      "device": "smart_lock_01",
+      "user": "user3",
+      "status": "success"
+    }
+  ]
+}
