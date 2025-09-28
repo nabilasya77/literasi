@@ -12,11 +12,10 @@ df_locks = pd.DataFrame(data.get("data_perangkat_iot_smart_lock", []))
 df_users = pd.DataFrame(data.get("data_perilaku_pengguna_perangkat", []))
 
 # Simpan ke Excel dengan banyak sheet
-with pd.ExcelWriter("literasi3.xlsx", engine="openpyxl") as writer:
+with pd.ExcelWriter("literasi3_rapi.xlsx", engine="openpyxl") as writer:
     df_files.to_excel(writer, sheet_name="Data Files", index=False)
     df_logs.to_excel(writer, sheet_name="Log Aktivitas", index=False)
     df_locks.to_excel(writer, sheet_name="IoT Smart Lock", index=False)
     df_users.to_excel(writer, sheet_name="Perilaku Pengguna", index=False)
 
-print("Konversi selesai! Data sudah disimpan ke literasi3.xlsx")
-
+print("Konversi selesai! Data sudah disimpan ke literasi3_rapi.xlsx")
